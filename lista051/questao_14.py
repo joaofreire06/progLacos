@@ -3,4 +3,5 @@
 2 . 1 ou 5! = 1 . 2 . 3 . 4 . 5, equivalente a 120
 '''
 
-
+cont = 5
+an
