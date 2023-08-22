@@ -7,10 +7,7 @@ expoente qualquer (Variável e), ou seja, de be
 b = float(input("Informe a base da potência: "))
 e = float(input("Informe o expoente da potência: "))
 
-cont = 1
-acumulador = 1
-while( cont <= e):
-    acumulador = acumulador * b
-    cont = cont + 1
 
-print(f"{b:.0f} elevado à {e:.0f} = {acumulador:.0f}")
+pot = b ** e
+
+print(f"{b:.0f} elevado à {e:.0f} = {pot:.0f}")
